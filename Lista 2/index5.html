@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = parseInt(prompt("Digite um número inteiro: "))
+        if(n <=0){
+            alert("Esse número não é valido")
+        }
+        else if(n == 2|| n == 3|| n == 5){
+            alert("O número: " + n + " é primo")
+        }
+        else if(n % 2 == 0 || n % 3 == 0 || n % 5 == 0 ){
+            alert("O número: " + n + " não é primo")
+        }
+        else{
+            alert("O número: " + n + " é primo")
+        }
+    </script>
+</body>
+</html>

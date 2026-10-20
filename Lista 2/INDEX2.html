@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n1 = parseFloat(prompt("Digite o primeiro número: "))
+        var n2 = parseFloat(prompt("Digite o segundo númeor: "))
+        var n3 = parseFloat(prompt("DIgite o terceiro número: "))
+        if(n1 > n2 && n2 > n3){
+            alert(n1)
+        }
+        else if(n1 == n2){
+            alert("Os numeros: " + n1 + n2 + "são iguais")
+        }
+        else if(n1 == n3){
+            alert("Os numeros: " + n1 + n3 + "são iguais")
+        }
+        else if(n2 == n3){
+            alert("Os numeros: " + n2 + n3 + "são iguais")
+        }
+        else if(n2 > n1 && n1 > n3){
+            alert(n2)
+        }
+        else if(n1 == n2 && n2 == n3){
+            alert("Os numero: " + n1 + n2 + n3 + "são iguais")
+        }
+        else{
+            alert(n3)
+        }
+        
+    </script>
+</body>
+</html>
